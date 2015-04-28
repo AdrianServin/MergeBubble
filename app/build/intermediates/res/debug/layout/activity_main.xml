@@ -1,0 +1,54 @@
+<AbsoluteLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:layout_marginTop="56dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bubble"
+        android:id="@+id/btnburbuja"
+        android:layout_below="@+id/editText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:layout_x="217dp"
+        android:layout_y="254dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Merge"
+        android:id="@+id/btnMerge"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/btnburbuja"
+        android:layout_alignLeft="@+id/btnburbuja"
+        android:layout_alignStart="@+id/btnburbuja"
+        android:layout_x="34dp"
+        android:layout_y="254dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="1, 2, 4, 62, 98, 6, 45, 6, 3, 5, 8, 56, 34, 7, 53, 345, 8"
+        android:id="@+id/textView"
+        android:layout_below="@+id/btnMerge"
+        android:layout_toLeftOf="@+id/btnMerge"
+        android:layout_toStartOf="@+id/btnMerge"
+        android:layout_x="3dp"
+        android:layout_y="426dp" />
+</AbsoluteLayout>
+<!-- From: file:/home/adrian_servin/AndroidStudioProjects/Ordenamiento/app/src/main/res/layout/activity_main.xml -->
